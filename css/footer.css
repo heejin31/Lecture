@@ -1,0 +1,138 @@
+footer {
+    
+  background-color: black;
+  color: white;
+  }
+  
+footer a{
+  color: #eee;
+  
+}
+  footer .inner {    
+  height: 300px; /* 레프트 라이트를 정렬하기 위해 필요한부분이라서 부모인 이너에 준다*/
+  box-sizing: border-box; /*옆으로 넘기는 스크롤 생기는거 없애는 부분*/
+  }
+
+  footer .inner > div {    
+  }
+
+  footer .inner .left {
+    
+  }
+  footer .inner .left h1 {
+    
+  }
+  footer .inner .left h1 a {
+    
+  color: white;
+  font-size: 0;
+  width: 113px;
+  height: 30px;
+  display: block;
+  background-image: url(../img/f_logo.png);
+  }
+
+ 
+  footer .inner .left address {
+    
+  }
+  footer .inner .left p.copyrighy {
+    
+  }
+  footer .inner .right {    
+   align-items: end;
+  }
+
+  footer .inner .right .bottom{
+   gap:50px;
+  }
+  footer .inner .right ul.personal {     
+   gap: 20px;
+  }
+  footer .inner .right ul.personal li {
+    
+  }
+  footer .inner .right ul.personal li a {    
+  color: white;
+  }
+
+
+  footer .inner .right .bottom {
+    
+  }
+  footer .inner .right .bottom ul.sns {
+    
+  gap: 20px;
+  align-items: center;
+  }
+  footer .inner .right .bottom ul.sns li {
+    
+  }
+  footer .inner .right .bottom ul.sns li a {    
+  color: #eee;
+  font-size: 0;  
+  width: 20px;
+  height: 20px;
+  display: block;
+  /*! border-radius: 50px; */
+  /*! box-shadow: ; */
+  }
+
+
+
+footer .inner .right .bottom ul.sns li:nth-child(1) a{
+  background-image: url(../img/logo-instagram.svg);
+  
+}
+
+footer .inner .right .bottom ul.sns li:nth-child(1) a:hover{
+  background-image: url(../img/logo-instagram2.svg);
+  
+}
+
+/*footer .inner .right .bottom ul.sns li:nth-child(1) a{
+  background-image: url(../img/logo-instagram.svg);
+  background-repeat: no-repeat;
+  font-size: 0;
+  display:block;
+  width: 20px; 
+  
+}*/
+
+
+footer .inner .right .bottom ul.sns li:nth-child(2) a{
+  
+  background-image: url(../img/logo-youtube.svg);
+  
+}
+
+footer .inner .right .bottom ul.sns li:nth-child(2) a:hover{
+  background-image: url(../img/logo-youtube2.svg);
+  
+}
+  
+footer .inner .right .bottom ul.sns li:nth-child(3) a{
+  
+  background-image: url(../img/logo-twitter.svg);
+  
+}
+
+footer .inner .right .bottom ul.sns li:nth-child(3) a:hover{
+  background-image: url(../img/logo-twitter2.svg);
+  
+}
+
+
+
+  footer .inner .right .bottom > a::before{
+    content: "";
+    background-image: url(../img/flag_store.png);
+    width: 64px;
+    height: 50px;
+    display: inline-block; /**/
+    vertical-align: middle; /**/
+    margin-right: 13px;
+    
+    
+  
+  }
